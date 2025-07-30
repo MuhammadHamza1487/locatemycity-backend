@@ -11,6 +11,7 @@ const allowedOrigins = [
   'http://localhost:3000',             // local dev
 //   'https://locate-my-city.vercel.app' , // your Vercel frontend
   'https://locatemycity-nu.vercel.app'
+  // Don't forget to remove backslash at the end
 ];
 
 app.use(cors({
